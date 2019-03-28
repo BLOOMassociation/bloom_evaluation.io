@@ -38,6 +38,12 @@ h6 {
     font-size : 0.4em;
 }
 
+h7 { 
+    color : #E31C67;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
 .fas {
     padding-left: 30px;
 }
@@ -130,7 +136,6 @@ h6 {
 
 .inactif {
     font-size : 0.9em;
-    color : #BFB7B6;
 }
 
 /*
@@ -245,7 +250,8 @@ h6 {
     transform: rotateY(180deg);
     color: black;
     background: #DBE0E4;
-    font-size: 13px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
