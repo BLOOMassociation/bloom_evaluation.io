@@ -10,25 +10,22 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">   
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">    
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
 </head>
 
 <body>
-    <header class="container-fluid mt-1">
-        <div class="row">
-            <div class="col">
-                <a href="https://www.bloomassociation.org/" target="_blank"><img class="logo" src="./img/logo-bloom-crop.jpg" alt="logo de bloom"/></a>
-            </div>
-        </div>
-    </header>
-    <section class="container">
-        <div class="row">
-            <div class="col-12 title">
-                <h1>Un outil pour évaluer les votes de nos eurodéputés</h1>
-                <p class="intro">Face à l'opacité des institutions européennes, BLOOM se mobilise pour que les votes des eurodéputés ne restent pas dans l'ombre. </p>
-                <p class="intro">Les textes les plus importants adoptés, en matière de protection de l'océan, pendant la dernière législature (de Juillet 2014 à Avril 2019) ont été selectionnés par l'équipe de BLOOM. Dans ces textes, des amendements ont été choisis en croisant deux critères : ceux dont le détail des votes était disponible et ceux sur lesquels les ONG ont communiqué aux députés leurs recommandations, accumulant alors le double avantage de la publicité et de l'importance.</p>
-                <p class="intro">Au sein de cette sélection, 3 points ont été attribués aux votes protecteurs de l'océan et 0 aux votes destructeurs de l'océan. Une moyenne a ensuite été réalisée et a permis d'attribuer une note à chaque député. Pour en savoir plus sur la méthode <a href="calculs-notes.html">cliquez ici.</a></p> 
-                <p class="intro">Découvrez ci-dessous le classement de nos eurodéputés.</p>
-                <input id="search" type="text" class="form-control col-12 col-lg-3 d-inline" placeholder="Recherchez un député">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="https://www.bloomassociation.org/" target="_blank"><img class="logo" src="./img/bloom-detoure.png" alt="logo de bloom"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+
+            <input id="search" type="text" class="form-control col-12 col-lg-3 d-inline form-control mr-sm-2" placeholder="Recherchez un député">
+            
+            <div class="py-1">
                 <div class="dropdown d-inline">
                     <button class="btn btn-secondary dropdown-toggle "  type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Par Parti
@@ -56,6 +53,8 @@
                         <a class="dropdown-item btn-partis" id="UDI" href="#">Union des Démocrates Indépendants</a>
                     </div>
                 </div>
+                <!-- ./ fin dropdownparti-->
+
                 <div class="dropdown d-inline">
                     <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Par Groupe
@@ -71,10 +70,43 @@
                         <a class="dropdown-item btn-partis" id="VALE" href="#">Les Verts/Alliance Libre Européenne (Verts/ALE)</a>
                     </div>
                 </div>
+                <!-- ./ fin dropdowngroupe-->
                 <button class="btn btn-secondary button-reset btn-partis separate-tous" id="all">Tous</button>
+            </div>
+
+            <div>
                 <button class="btn button-ranking" id='rankdecroissant'>Meilleures Notes</button>
                 <button class="btn button-ranking" id='rankcroissant'>Pires Notes</button>
                 <button class="btn button-ranking" id='rankAtoZ'>De A à Z</button>
+            </div>
+
+           
+        </div>
+    </nav>
+    <!-- ./end NAVBAR -->
+
+    <a id="button-backToTop"></a>
+    <!-- ./end back to top button-->
+
+    <header class="container-fluid mt-1">
+        
+    </header>
+    <section class="container">
+        <div class="row">
+            <div class="col-12 title">
+                <h1>un outil pour évaluer les votes de nos eurodéputés</h1>
+
+                <div id="summary">
+                    <p class="collapse intro" id="collapseSummary">
+                        Face à l'opacité des institutions européennes, BLOOM se mobilise pour que les votes des eurodéputés ne restent pas dans l'ombre.
+                        </br>Les textes les plus importants adoptés, en matière de protection de l'océan, pendant la dernière législature (de Juillet 2014 à Avril 2019) ont été selectionnés par l'équipe de BLOOM. 
+                        </br>Dans ces textes, des amendements ont été choisis en croisant deux critères : ceux dont le détail des votes était disponible et ceux sur lesquels les ONG ont communiqué aux députés leurs recommandations, accumulant alors le double avantage de la publicité et de l'importance.
+                        </br>Au sein de cette sélection, 3 points ont été attribués aux votes protecteurs de l'océan et 0 aux votes destructeurs de l'océan. Une moyenne a ensuite été réalisée et a permis d'attribuer une note à chaque député. Pour en savoir plus sur la méthode <a href="calculs-notes.html">cliquez ici.</a>
+                        </br>Découvrez ci-dessous le classement de nos eurodéputés.
+                    </p>
+                    <a class="collapsed end" data-toggle="collapse" href="#collapseSummary" aria-expanded="false" aria-controls="collapseSummary"></a>
+                </div>
+
             </div>
         </div>
         <div class="row ranking-group grid" id="parent">
@@ -1075,10 +1107,7 @@
     <footer class="container my-4">
         <div class="row">
             <div class="col-12 text-center">
-                <img class="img-float1" src="./img/tortue.jpg" alt="logo de tortue"/>
-                <img class="img-float2" src="./img/cropped fish" alt="logo de poisson"/>
-                <img class="img-float3" src="./img/octopus.png" alt="logo de pieuvre"/>
-                <a href="https://www.bloomassociation.org/" target="_blank"></br>En savoir plus sur Bloom</a>
+                <a href="https://www.bloomassociation.org/" target="_blank"><img class="img-float1" src="./img/Animation_ok_Bloom.gif" alt="poulpe de bloom"/></a>
             </div>
         </div>
         <div class="row">
