@@ -8,6 +8,7 @@ body {
 
 .title {
     color: #E31C67;
+    padding-bottom: 20px;
     margin-top: 10px;
     margin-bottom:10px;
     text-align: center;
@@ -22,7 +23,6 @@ h1 {
     text-align: center;
     font-variant: small-caps;
     font-family : oswald;
-    color : #293E5B;
 }
 
 h2 {
@@ -93,7 +93,6 @@ h7 {
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    color : #293E5B;
 }
 
 .dropdown-toggle {
@@ -126,7 +125,7 @@ h7 {
 }
 
 .img-cliquez {
-    width: 500px;
+    width: 300px;
 }
 
 .legende {
@@ -158,7 +157,7 @@ h7 {
 }
 
 a {
-    color: rgb(52, 132, 218);
+    color: #708EA1;
 }
 
 /*
