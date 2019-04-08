@@ -8,7 +8,6 @@ body {
 
 .title {
     color: #E31C67;
-    padding-bottom: 20px;
     margin-top: 10px;
     margin-bottom:10px;
     text-align: center;
@@ -26,8 +25,8 @@ h1 {
 }
 
 h2 {
-    font-size: 18px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 21px;
+    font-family: oswald;
 }
 
 h3 {
@@ -52,7 +51,6 @@ h6 {
 
 h7 { 
     color : #E31C67;
-    font-weight: bold;
     font-variant: small-caps;
 }
 
@@ -126,6 +124,7 @@ h7 {
 
 .img-cliquez {
     width: 300px;
+    margin-left: 150px
 }
 
 .legende {
