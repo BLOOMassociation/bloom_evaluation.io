@@ -41,12 +41,11 @@ h4 {
 
 h6 {
     color :#4C6784;
-    font-size : 0.4em;
+    font-size : 0.9em;
 }
 
 h7 { 
     color : #E31C67;
-    font-variant: small-caps;
 }
 
 .fas {
@@ -56,6 +55,7 @@ h7 {
 .card {
     transition: transform 0.3s;
     margin: 10px 0px;
+    font-size : 15px;
 }
 
 .card:hover {
@@ -84,7 +84,8 @@ h7 {
 
 .intro {
     color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Ubuntu;
+    font-weight: 300;
     text-align: center;
 }
 
@@ -104,9 +105,8 @@ h7 {
 }
 
 .explication {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Ubuntu;
     font-size: 14px;
-
 }
 
 .signature {
@@ -120,6 +120,7 @@ h7 {
 
 .legende {
     margin-top: 10px;
+    font-size: 15px;
 }
 
 .légende-titre {
@@ -142,16 +143,30 @@ h7 {
     color: orange;
 }
 
-.inactif {
-    font-size : 0.9em;
-}
-
 a {
     color: #708EA1;
+    font-family: oswald;
 }
 
 .mentions-legales {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: ubuntu;
+}
+
+.theme {
+    padding : 10px;
+    color : black;
+    font-family: ubuntu;  
+    text-align: center;
+}
+
+.t-titre {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    font-family: oswald;
+    font-variant: small-caps;
+    text-align: center;
+    color : #708EA1;
 }
 
 /*
@@ -255,6 +270,11 @@ a {
     background-color: #C1292E;
 }
 
+.vote {
+    text-align : center;
+    margin-right: 30px;
+}
+
 .front {
     color: black;
 }
@@ -267,7 +287,7 @@ a {
     color: black;
     background: #DBE0E4;
     font-size: 15px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: ubuntu;
 }
 
 
