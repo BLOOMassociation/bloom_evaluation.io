@@ -48,6 +48,10 @@ h7 {
     color : #E31C67;
 }
 
+h8 {
+    font-weight: bold;
+}
+
 .fas {
     padding-left: 30px;
 }
@@ -107,6 +111,7 @@ h7 {
 .explication {
     font-family: Ubuntu;
     font-size: 14px;
+    font-weight: 300;
 }
 
 .signature {
@@ -149,7 +154,8 @@ a {
 }
 
 .mentions-legales {
-    font-family: ubuntu;
+    font-family: Ubuntu;
+    font-weight: 300;
 }
 
 .theme {
@@ -167,6 +173,12 @@ a {
     font-variant: small-caps;
     text-align: center;
     color : #708EA1;
+}
+
+.t-description {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 
