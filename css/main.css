@@ -73,6 +73,7 @@ h8 {
 
 .btn-secondary {
     background-color: #4C6784;
+    font-family: oswald;
 }
 
 .btn-secondary:hover {
@@ -105,12 +106,17 @@ h8 {
 
 #explication-note {
     font-family: Ubuntu;
-    font-size: 14px;
+    font-size: 13px;
 }
 
-#methodo {
-    font-family: oswald;
-    font-size : 20px;
+.methodo {
+    font-family: Oswald;
+    font-size : 17px;
+}
+
+.unbuntu-link {
+    font-family : Ubuntu;
+    font-weight: 300;
 }
 
 .explication {
@@ -122,15 +128,17 @@ h8 {
 .signature {
     padding-top: 10px;
     font-size: 10px;
+    font-family: Ubuntu;
+    font-weight: 300;
 }
 
 .img-cliquez {
-    width: 380px;
+    width: 340px;
 }
 
 .legende {
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .légende-titre {
@@ -155,12 +163,13 @@ h8 {
 
 a {
     color: #708EA1;
-    font-family: oswald;
+    font-family: Ubuntu;
 }
 
 .mentions-legales {
     font-family: Ubuntu;
     font-weight: 300;
+    font-size : 14px;
 }
 
 .theme {
@@ -314,8 +323,9 @@ a {
     transform: rotateY(180deg);
     color: black;
     background: #DBE0E4;
-    font-size: 15px;
-    font-family: ubuntu;
+    font-size: 13px;
+    font-family: Ubuntu;
+    font-weight: 300;
 }
 
 
