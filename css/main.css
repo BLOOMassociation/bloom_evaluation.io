@@ -104,8 +104,13 @@ h8 {
 }
 
 #explication-note {
-    font-family: oswald;
+    font-family: Ubuntu;
     font-size: 14px;
+}
+
+#methodo {
+    font-family: oswald;
+    font-size : 20px;
 }
 
 .explication {
